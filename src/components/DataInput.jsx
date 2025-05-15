@@ -1,8 +1,12 @@
+import React from 'react';
+
 export default function DataInput({ title, field }) {
+  React.useState(inputValue, setInputValue) = (0);
+
   return (
-    <div>
+    <p>
       <label>{title}</label>
-      <input type="number" name={field} />
-    </div>
+      <input type="number" required name={field} />
+    </p>
   );
 }
